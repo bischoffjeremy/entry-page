@@ -1,0 +1,79 @@
+@import '~bulma/css/bulma.css';
+
+.graphics img {
+    transition: transform 0.3s;
+  }
+  .graphics img:hover {
+    transform: scale(1.1);
+  }
+
+
+  .iframes {
+    margin: 0 auto; /* center horizontally */
+    display: flex; /* use flex layout */
+    flex-wrap: wrap; /* wrap elements to the next line if they don't fit on the current line */
+    justify-content: center; /* center elements horizontally */
+    text-align: center; /* center text */
+  }
+  .iframe{
+
+    margin: 10px;
+ 
+  }
+  
+
+
+  .tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.tiles-container {
+    width: 100%; /* 80% der Fensterbreite */
+    margin: 0 auto; /* horizontale Ausrichtung zentrieren */
+    padding: 20px; /* Abstand zu den tiles */
+  }
+
+  .tile {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    margin: 10px;
+  }
+
+  
+  
+
+  .tile:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (min-width: 1200px) {
+    .tile {
+      width: 20%; /* 250px bei einer Container-Breite von 1000px */
+    }
+  }
+  
+  @media (max-width: 1199px) and (min-width: 900px) {
+    .tile {
+      width: 25%; /* 200px bei einer Container-Breite von 800px */
+    }
+  }
+  
+  @media (max-width: 899px) {
+    .tile {
+      width: 50%; /* 100px bei einer Container-Breite von 400px */
+    }
+  }
+
+
+
+
+
+
+
+
