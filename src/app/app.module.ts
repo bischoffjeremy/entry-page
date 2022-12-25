@@ -9,8 +9,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
-import {TileComponent} from './pages/tile/tile.component';
-import { HomeComponent } from './pages/home/home.component';
+import {TileComponent} from './components/tile/tile.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [AppComponent,TileComponent,HomeComponent],
