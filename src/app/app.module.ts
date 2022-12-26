@@ -12,6 +12,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import {TileComponent} from './components/tile/tile.component';
 import { HomeComponent } from './components/home/home.component';
+import {MatSlideToggleModule} from "@angular/material/slide-toggle";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [AppComponent,TileComponent,HomeComponent],
@@ -24,7 +26,9 @@ import { HomeComponent } from './components/home/home.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    HttpClientModule
+    HttpClientModule,
+    MatSlideToggleModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
