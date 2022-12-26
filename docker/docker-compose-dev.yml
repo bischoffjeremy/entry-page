@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  entry-page:
+    container_name: entry-page
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8080:80"

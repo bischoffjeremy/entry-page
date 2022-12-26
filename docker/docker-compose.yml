@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  entry-page:
+    container_name: entry-page
+    image: entry-page:latest
+    ports:
+      - "80:80"
