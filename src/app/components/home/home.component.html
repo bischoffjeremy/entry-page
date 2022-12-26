@@ -1,20 +1,19 @@
 <main>
-  <!-- Kacheln -->
+<!--   Kacheln -->
 
-  <div class="tiles-container" >
-  <div class="tiles">
-    <app-tile  *ngFor="let tile of tiles" [color]="tile.color" [title]="tile.title" [description]="tile.description" [iconUrl]="getIcon(tile.title)" ></app-tile>
-  </div>
-  </div>
-
-  <div class="iframes" >
-    <div class="iframe">
-      <iframe src="http://10.101.4.2:3000/d-solo/suTmk8c7k/opnsense?orgId=1&from=1671984554206&to=1672006154206&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&panelId=2" width="450" height="350" frameborder="0"></iframe>
-    </div>
-    <div class="iframe">
-      <iframe src="http://10.101.4.2:3000/d-solo/suTmk8c7k/opnsense?orgId=1&from=1671984504535&to=1672006104535&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&panelId=34" width="450" height="350" frameborder="0" ></iframe>
+  <div class="tiles-container">
+    <div class="tiles">
+      <app-tile *ngFor="let tile of configService.config.tiles" [color]="tile.color" [title]="tile.title"
+                [description]="tile.description" [iconUrl]="getIcon(tile.title)"></app-tile>
     </div>
   </div>
 
-  </main>
+<!--  IFrames-->
+  <div class="iframes">
+    <div class="iframe" *ngFor="let iframe of configService.config.iframes">
+      <iframe [src]="getTrustedSrc(iframe.src)" [width]="iframe.width" [height]="iframe.height"></iframe>
+    </div>
+  </div>
+
+</main>
 
