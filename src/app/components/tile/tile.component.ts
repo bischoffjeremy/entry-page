@@ -10,6 +10,7 @@ export class TileComponent implements OnInit {
   @Input() description: string = '';
   @Input() color: string = '';
   @Input() iconUrl: string = '';
+  @Input() url: string = '';
 
   hover = false;
 

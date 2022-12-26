@@ -4,7 +4,7 @@
   <div class="tiles-container">
     <div class="tiles">
       <app-tile *ngFor="let tile of configService.config.tiles" [color]="tile.color" [title]="tile.title"
-                [description]="tile.description" [iconUrl]="getIcon(tile.title)"></app-tile>
+                [description]="tile.description" [iconUrl]="getIcon(tile.title)" [url]="tile.url"></app-tile>
     </div>
   </div>
 
@@ -14,6 +14,5 @@
       <iframe [src]="getTrustedSrc(iframe.src)" [width]="iframe.width" [height]="iframe.height"></iframe>
     </div>
   </div>
-
 </main>
 

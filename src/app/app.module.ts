@@ -11,7 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import {TileComponent} from './components/tile/tile.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import {ReactiveFormsModule} from "@angular/forms";
 

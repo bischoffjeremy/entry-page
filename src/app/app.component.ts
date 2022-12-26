@@ -5,6 +5,7 @@ import {delay, filter} from 'rxjs/operators';
 import {NavigationEnd, Router} from '@angular/router';
 import {UntilDestroy, untilDestroyed} from '@ngneat/until-destroy';
 import {FormControl} from "@angular/forms";
+import {ConfigService} from "./services/config.service";
 
 @UntilDestroy()
 @Component({
@@ -20,7 +21,7 @@ export class AppComponent implements OnInit {
   darkModeControl = new FormControl(false);
   @HostBinding('class') className = '';
 
-  constructor(private observer: BreakpointObserver, private router: Router) {}
+  constructor(private observer: BreakpointObserver, private router: Router,public configService: ConfigService) {}
 
   ngOnInit(): void {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');

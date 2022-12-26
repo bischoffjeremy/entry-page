@@ -7,7 +7,7 @@
     <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
     <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
   </button>
-  Bischoff Intern
+ {{configService.config.name ?? 'Loading...'}}
 </mat-toolbar>
 
 <mat-sidenav-container>
@@ -18,21 +18,6 @@
     <button style="width: 100px;"  mat-raised-button class="menu-button" routerLink="/home">
       <mat-icon>home</mat-icon>
       <span>Home</span>
-    </button>
-    <mat-divider></mat-divider>
-    <button style="width: 100px;" mat-raised-button class="menu-button" routerLink="/profile">
-      <mat-icon>person</mat-icon>
-      <span>Profile</span>
-    </button>
-    <mat-divider></mat-divider>
-    <button style="width: 100px;" mat-raised-button class="menu-button" routerLink="/about">
-      <mat-icon>info</mat-icon>
-      <span>About</span>
-    </button>
-    <mat-divider></mat-divider>
-    <button style="width: 100px;" mat-raised-button class="menu-button" routerLink="/help">
-      <mat-icon>help</mat-icon>
-      <span>Help</span>
     </button>
     <mat-divider></mat-divider>
     <button style="width: 100px;" mat-raised-button class="menu-button" (click)="darkModeControl.setValue(!darkModeControl.value)">

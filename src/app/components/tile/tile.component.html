@@ -1,4 +1,10 @@
-<button  routerLink="/home" class="tile" [ngStyle]="{'background-color': color}" (mouseenter)="onHover()" (mouseleave)="onLeave()" >
-  <h2 ><img class="icon" src="{{iconUrl}}">{{ title }}</h2>
-    <!--.<p>{{ description }}</p>-->
+<a href="{{url}}"> 
+  <button class="tile" [ngStyle]="{'background-color': color}" (mouseenter)="onHover()"
+    (mouseleave)="onLeave()">
+    <h2>
+      <img class="icon" src="{{iconUrl}}">{{ title }}
+    </h2>
+
+
   </button>
+</a>
