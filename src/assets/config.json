@@ -1,16 +1,23 @@
 {
   "tiles": [
     { "title": "home-assistant", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://homeassistant.bischoff.ns01.info"},
-    { "title": "grafana", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "http://grafana.bischoff.ns01.info"},
-    { "title": "kasm", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "http://grafana.bischoff.ns01.info"},
-    { "title": "kuma", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kuma.bischoff.ns01.info"},
+    { "title": "grafana", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://grafana.bischoff.ns01.info/"},
+    { "title": "kasm", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kasm.bischoff.ns01.info"},
+    { "title": "kuma", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kuma.bischoff.ns01.info/status/home"},
     { "title": "bitwarden", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"", "url": "https://bitwarden.bischoff.ns01.info" },
-    { "title": "opnsense", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://router.arpa"}
+    { "title": "opnsense", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://router.arpa"},
+    { "title": "matrix", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://matrix.bischoff.ns01.info"},
+    { "title": "influxdb", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://influxdb.bischoff.ns01.info"}
+
   ],
   "iframes": [
-    { "src": "http://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1671974903536&to=1672061303536&panelId=2" },
-    { "src": "http://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1671974903536&to=1672061303536&panelId=2" }
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1672084730257&to=1672171130257&panelId=4" },
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1672084787443&to=1672171187443&panelId=50" },
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1672082290541&to=1672168690541&panelId=18" },
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&showCategory=Repeat+options&from=1672085069458&to=1672171469458&panelId=34" }
+
   ],
+  
   "navLinks": [
     {
       "label": "Link 1",
@@ -25,7 +32,5 @@
       "link": "/link3"
     }
   ],
-  "name":"Bischoffeli Intern"
-
-  
+  "name":"Bischoff Intern"
 }

@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
       this.className = darkMode ? darkClassName : '';
     });
 
-    this.darkModeControl.setValue(mediaQuery.matches);
+    this.darkModeControl.setValue(true);
   }
 
   ngAfterViewInit() {
