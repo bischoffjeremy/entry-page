@@ -11,7 +11,7 @@
 <!--  IFrames-->
   <div class="iframes">
     <div class="iframe" *ngFor="let iframe of configService.config.iframes">
-      <iframe [src]="getTrustedSrc(iframe.src)" width="300px" height="280px"></iframe>
+      <object  [data]="getTrustedSrc(iframe.src)" width="300px" height="280px"></object>
     </div>
   </div>
 </main>

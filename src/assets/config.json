@@ -11,10 +11,10 @@
 
   ],
   "iframes": [
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1672084730257&to=1672171130257&panelId=4" },
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1672084787443&to=1672171187443&panelId=50" },
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=1672082290541&to=1672168690541&panelId=18" },
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&showCategory=Repeat+options&from=1672085069458&to=1672171469458&panelId=34" }
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=4" },
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=50" },
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=18" },
+    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&showCategory=Repeat+options&panelId=34" }
 
   ],
   
