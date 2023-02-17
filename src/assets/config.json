@@ -1,20 +1,20 @@
 {
   "tiles": [
-    { "title": "home-assistant", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://homeassistant.bischoff.ns01.info"},
-    { "title": "grafana", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://grafana.bischoff.ns01.info/"},
-    { "title": "kasm", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kasm.bischoff.ns01.info"},
-    { "title": "kuma", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kuma.bischoff.ns01.info/status/home"},
-    { "title": "bitwarden", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"", "url": "https://bitwarden.bischoff.ns01.info" },
+    { "title": "home-assistant", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://homeassistant.bischoff.ddns.info"},
+    { "title": "grafana", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://grafana.bischoff.ddns.info/"},
+    { "title": "kasm", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kasm.bischoff.ddns.info"},
+    { "title": "kuma", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kuma.bischoff.ddns.info/status/home"},
+    { "title": "bitwarden", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"", "url": "https://bitwarden.bischoff.ddns.info" },
     { "title": "opnsense", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://router.arpa"},
-    { "title": "matrix", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://matrix.bischoff.ns01.info"},
-    { "title": "influxdb", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://influxdb.bischoff.ns01.info"}
+    { "title": "matrix", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://matrix.bischoff.ddns.info"},
+    { "title": "influxdb", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://influxdb.bischoff.ddns.info"}
 
   ],
   "iframes": [
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=4" },
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=50" },
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=18" },
-    { "src": "https://grafana.bischoff.ns01.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&showCategory=Repeat+options&panelId=34" }
+    { "src": "https://grafana.bischoff.ddns.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=4" },
+    { "src": "https://grafana.bischoff.ddns.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=50" },
+    { "src": "https://grafana.bischoff.ddns.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&panelId=18" },
+    { "src": "https://grafana.bischoff.ddns.info/d-solo/suTmk8c7k/opnsense?orgId=1&var-dataSource=OpnsenseData&var-ESdataSource=&var-Host=All&var-Disk=All&var-Sensor=All&var-LAN=All&var-Gateway=All&var-WAN=All&var-iface=All&var-dst_port=All&var-src_ip=All&from=now-24h&to=now&showCategory=Repeat+options&panelId=34" }
 
   ],
   
