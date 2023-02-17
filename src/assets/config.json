@@ -2,12 +2,11 @@
   "tiles": [
     { "title": "home-assistant", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://homeassistant.bischoff.ddns.info"},
     { "title": "grafana", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://grafana.bischoff.ddns.info/"},
-    { "title": "kasm", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kasm.bischoff.ddns.info"},
     { "title": "kuma", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://kuma.bischoff.ddns.info/status/home"},
     { "title": "bitwarden", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"", "url": "https://bitwarden.bischoff.ddns.info" },
     { "title": "opnsense", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://router.arpa"},
     { "title": "matrix", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://matrix.bischoff.ddns.info"},
-    { "title": "influxdb", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://influxdb.bischoff.ddns.info"}
+    { "title": "nextcloud", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://nextcloud.bischoff.ddns.info"}
 
   ],
   "iframes": [
