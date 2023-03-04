@@ -832,6 +832,7 @@ export class HomeComponent implements OnInit {
     "supermicro.png",
     "swift.png",
     "swizzin.png",
+    "swag.png",
     "symmetricom.png",
     "sympa.png",
     "syncany.png",
