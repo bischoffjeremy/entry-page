@@ -11,7 +11,7 @@
     { "title": "gitea", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://git.bischoff.ddns.info"},
     { "title": "swag", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://dashboard.bischoff.ddns.info"},
     { "title": "duplicati", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://duplicati.bischoff.ddns.info"},
-    { "title": "changedetection-io", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://changedetection.bischoff.ddns.info"}
+    { "title": "changedetect", "description": "Beschreibung der App 1", "color": "gray", "iconUrl":"" , "url": "https://changedetection.bischoff.ddns.info"}
 
 
   ],
